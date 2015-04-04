@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Humans/Combine/ted_facemap"
+	"$halflambert" 1
+	"$nocull" 1
+}

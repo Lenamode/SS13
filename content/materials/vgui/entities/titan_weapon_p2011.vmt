@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/titan_weapon_p2011"
+	"$ignorez"1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$nolod" "1"
+}

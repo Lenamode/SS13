@@ -1,0 +1,7 @@
+// Extracted with MulleDK19's GMAD Extractor
+"AddonInfo"
+{
+	"name" "Flare"
+	"author_name" "Unknown"
+	"info" "This adds the HL2 hand flare, but it has a better texture on it. It is not a dupe, this is a working flare. There is one bug I know of, you can't punt it with the gravgun.  [quote] "I'm done with gmod and I don't take requests, so please stop spamming the comment section. There won't be any updates or new packs." -Silverlan[/quote]  [h1] To all the people who have and will continue to point it out: Yes, I know there is a flare in HL2 ep2. What about the people who don't have ep2, huh? Also, the HL2 flare texture looks like crap, so I made a new texture that's outright awesome and mildly arousing to look at. [/h1]  [url=http://steamcommunity.com/sharedfiles/filedetails/?id=118070379]The map I used is a clean version of the hospital in hl.[/url]  I did not code it, just made a sexy texture that was bigger than the original hl2 texture. I the lua code from a none G-mod 13 mod by Silverlan.  Tags: flare sexy custom texture Silverlan black m3sa stolen code SALUS"
+}

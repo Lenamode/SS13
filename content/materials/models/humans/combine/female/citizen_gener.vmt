@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Humans/Combine/Female/cmb_female_general"
+	"$bumpmap" "models/Humans/Combine/Female/cmb_female_general_n"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0.1 2.1 5.1]"
+	"$phongalbedotint" "1"
+}
