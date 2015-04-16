@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/wheatleymodels/c_ai_flamethrower_sheet"
-
-	"$envmap" 			"env_cubemap"
-	"$envmaptint" 			"[ .2 .2 .2 ]"
-}

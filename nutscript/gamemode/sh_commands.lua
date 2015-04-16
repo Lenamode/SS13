@@ -73,6 +73,39 @@ nut.command.Register({
 
 nut.command.Register({
 	allowDead = true,
+	syntax = "<string name> <string message>",
+	onRun = function(client, arguments)
+		local target = nut.command.FindPlayer(client, arguments[1])
+
+		if (target) then
+			table.remove(arguments, 1)
+			local text = table.concat(arguments, " ")
+
+			if (!text or #text < 1) then
+				nut.util.Notify(nut.lang.Get("missing_arg", 2), client)
+
+				return
+			end
+
+			local voiceMail = target.character:GetData("voicemail")
+
+			if (voiceMail) then
+				nut.chat.Send(client, "pager", target:Name()..": "..voiceMail)
+
+				return
+			end
+			
+			local message = client:Name()..": "..text
+
+			nut.chat.Send(client, "pager", message)
+			nut.chat.Send(target, "pager", message)
+		end
+	end
+}, "pm")
+
+
+nut.command.Register({
+	allowDead = true,
 	syntax = "[string message]",
 	onRun = function(client, arguments)
 		local message = table.concat(arguments, " ")

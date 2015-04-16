@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/hud/titan_weapon_at_rifle"
-	"$ignorez"1
-	"$vertexcolor" 1
-	"$vertexalpha" 1
-	"$nolod" "1"
-}

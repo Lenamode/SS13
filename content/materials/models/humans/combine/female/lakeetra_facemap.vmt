@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitTexture
-	"$basetexture" "models/Humans/Combine/Female/lakeetra_facemap"
-	"$halflambert" 1
-}

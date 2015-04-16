@@ -1,6 +1,6 @@
-FACTION.name = "Medical"
-FACTION.desc = "Patch people up n' stuff."
-FACTION.color = Color(255, 179, 0)
+FACTION.name = "Science"
+FACTION.desc = "Make shit."
+FACTION.color = Color(255, 192, 0)
 FACTION.femaleModels = {
 		"models/mossman.mdl",	
 		"models/humans/scientist_female.mdl",	
@@ -18,4 +18,4 @@ FACTION.maleModels = {
 
 }
 FACTION.isDefault = false
-FACTION_MEDICAL = FACTION.index
+FACTION_SCIENCE = FACTION.index

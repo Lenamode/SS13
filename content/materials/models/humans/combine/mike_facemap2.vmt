@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\humans/Combine/mike_facemap2"
-	"$halflambert" 1
-	"$nocull" 1
-}
